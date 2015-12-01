@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang=pl>
+<head>
+    <meta charset=utf-8>
+    <title>Ransom Note Generator</title>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="screen" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <h2>Ransom Note Generator</h2>
+    </header>
+    <section>
+        <section class="profil">
+            <section class="form">
+                <form action="/" method="get" id="form">
+                    <fieldset>
+                        <label for="form-comment"></label>
+                        <textarea class="place input" id="inputMessage" cols="45" rows="1" maxlength="35"></textarea>
+                        <div id="count" style="color: #42454c;">35 charakters left</div>
+                    </fieldset>
+                    <fieldset>
+                        <input class="place up" id="sendButton" type="submit" value="ransomize">
+                    </fieldset>
+                </form>
+            </section> 
+        </section>
+        <section id="result"></section>
+    </section>
+    <footer>
+        <section class="foot">
+            <div id="fresh">&#8635;</div>
+            <div id="boom">&#128165;</div>
+        </section>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body></html> 

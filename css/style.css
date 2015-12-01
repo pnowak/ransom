@@ -1,0 +1,94 @@
+body { 
+    background-color: #ffffff;
+    font-size: 1.125em;  /* 18px / 16px */
+    font-family: 'Vollkorn', serif;
+    text-align: center; 
+}
+        
+a { 
+  text-decoration: none; 
+}
+
+header { 
+    width: 100%;
+    margin: 1% auto 4%; 
+}
+          
+h2 { 
+    color: #000000;
+    text-align: left;
+} 
+
+#result  { 
+    position: relative;
+    margin: 2% auto;
+    width: 100%; 
+    text-align: center;
+}
+
+#count {
+    height: 20px;
+    text-align: center;
+}
+
+.foot {
+    position: absolute;
+    bottom: 40px;
+    left: 47%;
+}
+
+#fresh {
+    cursor: pointer;
+    float: left;
+    font-size: 24px;
+}
+
+#boom {
+    cursor: pointer;
+    float: left;
+    padding-left: 50px;
+    font-size: 24px;
+}
+
+fieldset { 
+    border: none; 
+}
+   
+input, textarea { 
+    padding: 10px 15px;
+    color: #000000;
+    font-size: 0.875em;  /* 14px / 16px */ 
+    font-family: 'Vollkorn', serif;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+                   
+input[type="submit"] { 
+    font-weight: bold;
+    border: none;
+    width: 16%;
+    color: #FFFAF0;
+    background-color: #209cbb; 
+    cursor: pointer; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0b6a82;
+}
+
+@keyframes zoom {
+    0% { transform: scale(.3); }
+    100% { transform: scale(1.4); }
+}
+
+@keyframes rotate {
+    100% { transform: rotate(360deg); }
+}
+
+.zoom {
+    animation: up 4s normal;
+}
+
+.rotate {
+    animation: rotate 5s normal;
+}
